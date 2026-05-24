@@ -1,7 +1,14 @@
 {
   "name": "react-spring-postgres-dev",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/react-spring-sample",
+  "runServices": ["app", "db"],
+  "shutdownAction": "stopCompose",
   "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "moby": false
+    },
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
     },
