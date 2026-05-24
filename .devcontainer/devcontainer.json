@@ -17,10 +17,6 @@
       "installMaven": true,
       "installGradle": true
     },
-    "ghcr.io/devcontainers/features/common-utils:2": {
-      "installZsh": false,
-      "username": "automatic"
-    },
     "ghcr.io/devcontainers/features/git-lfs:1": {}
   },
   "forwardPorts": [3000, 5173, 8080, 5432],
