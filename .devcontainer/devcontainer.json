@@ -27,7 +27,7 @@
       "visibility": "organization"
     },
     "8080": {
-      "label": "FrontEnd",
+      "label": "BackEnd",
       "onAutoForward": "notify",
       "visibility": "organization"
     }
